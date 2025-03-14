@@ -1,0 +1,30 @@
+title: KingdomOS Command Menu
+description: Replaces the KH1 command menu with a more classic looking menu.
+assets:
+- name: field2d\us\zz0command.2dd
+  platform: pc
+  multi:
+  - name: field2d\fr\zz0command.2dd
+  - name: field2d\gr\zz0command.2dd
+  - name: field2d\it\zz0command.2dd
+  - name: field2d\sp\zz0command.2dd
+  - name: field2d\uk\zz0command.2dd
+  method: copy
+  source:
+  - name: zz0command.2dd
+- name: remastered\field2d\us\zz0command.2dd\-0.png
+  platform: pc
+  multi:
+  - name: remastered\field2d\fr\zz0command.2dd\-0.png
+  - name: remastered\field2d\gr\zz0command.2dd\-0.png
+  - name: remastered\field2d\it\zz0command.2dd\-0.png
+  - name: remastered\field2d\sp\zz0command.2dd\-0.png
+  - name: remastered\field2d\uk\zz0command.2dd\-0.png
+  method: copy
+  source:
+  - name: US_zz0command_2dd0.png
+- name: field2d\jp\zz0command.2dd
+  platform: ps2
+  method: copy
+  source:
+  - name: zz0command.2dd
